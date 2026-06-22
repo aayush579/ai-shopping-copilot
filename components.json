@@ -1,0 +1,10 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "components": {
+    "button": {
+      "path": "src/components/ui/button.tsx",
+      "importPath": "@/components/ui/button"
+    }
+  }
+}
