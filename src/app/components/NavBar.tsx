@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import { Button } from "@/components/ui/button";
 export default function NavBar() {
   return (
     <nav className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 p-4 flex justify-between items-center">
@@ -13,7 +13,7 @@ export default function NavBar() {
         <Link href="/register" className="text-gray-900 dark:text-gray-100 hover:underline">
           Sign Up
         </Link>
-      </div>
+      </div><Button className="ml-4">Get Started</Button>
     </nav>
   );
 }
